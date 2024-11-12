@@ -1,0 +1,23 @@
+{
+	 "description": "",
+    "type": "wp-project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "woa-job",
+            "email": "Unknown@Unknown.de",
+            "homepage": "https://www.Unknown.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.6",
+	 	 "yahnis-elsts/plugin-update-checker": "^5.1"
+    },
+	"autoload": {
+       "psr-4": {"Includes\\": "includes"},
+	   "classmap": ["includes/"]
+    }
+	
+
+}
